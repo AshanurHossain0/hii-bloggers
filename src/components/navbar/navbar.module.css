@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    background-color: aquamarine;
 }
 
 .social{
@@ -16,10 +15,50 @@
     flex: 1;
     text-align: center;
 }
+.logo img{
+    width: 120px;
+    height: 45px;
+}
 
 .links{
     display: flex;
+    align-items: center;
     gap: 20px;
     flex: 1;
     font-size: 20px;
+}
+
+@media screen and (max-width:1280px){
+    .logo img{
+        width: 107px;
+        height: 40px;
+    }
+    .links{
+        gap: 15px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1024px){
+    .social{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+}
+@media screen and (max-width:768px){
+    .logo img{
+        width: 80px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:640px){
+    .links{
+        gap: 11px;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+    .link{
+        display: none;
+    }
 }
