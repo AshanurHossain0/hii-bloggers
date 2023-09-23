@@ -54,7 +54,7 @@
 }
 @media screen and (max-width:640px){
     .links{
-        gap: 11px;
+        gap: 50px;
         font-size: 14px;
         justify-content: flex-end;
     }

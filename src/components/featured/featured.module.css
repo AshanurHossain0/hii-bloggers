@@ -8,9 +8,7 @@
     font-weight: 300;
 }
 
-.bold{
 
-}
 
 .post{
     margin-top: 60px;
@@ -50,4 +48,64 @@
     border: none;
     border-radius: 5px;
     width: max-content;
+}
+
+@media screen and (max-width:1200px) {
+    .title{
+        font-size: 72px;
+    }
+    .postTitle{
+        font-size: 35px;
+    }
+    .postDesc{
+        font-size: 18px;
+        font-weight: 290;
+    }
+}
+@media screen and (max-width:1024px) {
+    .title{
+        font-size: 64px;
+    }
+    .imgContainer{
+        display: none;
+    }
+    .postTitle{
+        font-size: 30px;
+    }
+    .postDesc{
+        font-size: 16px;
+        font-weight: 280;
+    }
+}
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 46px;
+    }
+    .postTitle{
+        font-size: 25px;
+    }
+    .postDesc{
+        font-size: 14px;
+        font-weight: 270;
+    }
+}
+@media screen and (max-width:640px) {
+    .title{
+        font-size: 36px;
+    }
+    .postTitle{
+        font-size: 20px;
+    }
+    .postDesc{
+        font-size: 12px;
+        font-weight: 260;
+    }
+}
+@media screen and (max-width:400px) {
+    .title{
+        font-size: 26px;
+    }
+    .postTitle{
+        font-size: 15px;
+    }
 }
