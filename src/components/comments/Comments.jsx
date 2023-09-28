@@ -27,6 +27,42 @@ const Comments = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo obcaecati numquam quo quisquam, expedita nemo dignissimos vitae rerum repellat dolores!
                     </p>
                 </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image src="/p1.jpeg" className={styles.image} alt="" width={50} height={50} />
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>Ashanur Hossain</span>
+                            <span className={styles.date}>20.08.2021</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo obcaecati numquam quo quisquam, expedita nemo dignissimos vitae rerum repellat dolores!
+                    </p>
+                </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image src="/p1.jpeg" className={styles.image} alt="" width={50} height={50} />
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>Ashanur Hossain</span>
+                            <span className={styles.date}>20.08.2021</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo obcaecati numquam quo quisquam, expedita nemo dignissimos vitae rerum repellat dolores!
+                    </p>
+                </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image src="/p1.jpeg" className={styles.image} alt="" width={50} height={50} />
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>Ashanur Hossain</span>
+                            <span className={styles.date}>20.08.2021</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo obcaecati numquam quo quisquam, expedita nemo dignissimos vitae rerum repellat dolores!
+                    </p>
+                </div>
             </div>
         </div>
     )
